@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.7.0",
+      "destination": "wwwroot/lib/jquery/",
+      "files": [
+        "jquery.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery-validate@1.19.5",
+      "destination": "wwwroot/lib/jquery-validate/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery-validation-unobtrusive@4.0.0",
+      "destination": "wwwroot/lib/jquery-validation-unobtrusive/",
+      "files": [
+        "jquery.validate.unobtrusive.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "twitter-bootstrap@5.3.1",
+      "destination": "wwwroot/lib/bootstrap/"
+    }
+  ,
+{
+  "provider": "cdnjs",
+  "library": "font-awesome@6.4.2",
+  "destination": "wwwroot/lib/font-awesome/",
+  "files": [
+    "css/all.css",
+    "css/brands.css",
+    "css/fontawesome.css",
+    "css/regular.css",
+    "css/solid.css",
+    "css/svg-with-js.css",
+    "css/v4-font-face.css",
+    "css/v4-shims.css",
+    "css/v5-font-face.css",
+    "webfonts/fa-brands-400.ttf",
+    "webfonts/fa-brands-400.woff2",
+    "webfonts/fa-regular-400.ttf",
+    "webfonts/fa-regular-400.woff2",
+    "webfonts/fa-solid-900.ttf",
+    "webfonts/fa-solid-900.woff2",
+    "webfonts/fa-v4compatibility.ttf",
+    "webfonts/fa-v4compatibility.woff2",
+    "sprites/brands.svg",
+    "sprites/regular.svg",
+    "sprites/solid.svg",
+    "js/all.js",
+    "js/brands.js",
+    "js/conflict-detection.js",
+    "js/fontawesome.js",
+    "js/regular.js",
+    "js/solid.js"
+  ]
+}
+]
+}

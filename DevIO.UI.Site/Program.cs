@@ -10,11 +10,7 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-
-
-
-
-
+app.UseStaticFiles();
 
 //Add Rota Padrão
 app.MapControllerRoute(
