@@ -4,7 +4,7 @@
 */
 
 $(document).ready(function () {
-    console.log("Teste2");
+    //console.log("Teste2");
 });
 
 
